@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "6ecf3f96-230f-4f21-9ce3-aef611675942",
+    "appType": "app",
+    "appDisplayName": "CPR",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "CPR"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
